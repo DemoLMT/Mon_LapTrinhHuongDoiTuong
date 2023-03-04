@@ -1,23 +1,25 @@
 # Mon_LapTrinhHuongDoiTuong
 <p>BÀI TẬP LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG</p>
 </p>
+BÀI TẬP LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
+
 Bài 1:
 Để quản lý hàng hóa, người ta xây dựng lớp PHIEUNHAP với các thông tin: Tên Hàng, Ngày nhập (có kiểu DATE), Số lượng và các phương thức nhập, xuất dữ liệu. thực hiện các yêu cầu sau:
-a. Xây dựng hàm tạo (hàm thiết lập) không tham số, hàm tạo (hàm thiết lập) có tham số.
-b. Xây dựng toán tử <<, >> để nhập, xuất dữ liệu.
-c. Xây dựng toán tử lớn hơn “>” để so sánh hai đối tượng phiếu nhập thông qua số lượng.
-d. Xây dựng toán tử so sánh “==” để so sánh hai đối tượng phiếu nhập xem có cùng tên hàng hay không.
-Viết chương trình thực hiện các yêu cầu sau:
-a. Viết chương trình nhập vào danh sách n phiếu nhập.
-b. Hiển thị các danh sách vừa nhập ra màn hình.
-c. Hiển thị thông tin những phiếu hàng thuộc mặt hàng “gia dụng”.
-d. Đưa ra thông tin những phiếu nhập có số lượng hàng >100.
-#include<bits/stdc++.h>
-using namespace std;
-class date{
-	public:
-	int ngay,thang,nam;
-	void nhap(){
+<p>a.	Xây dựng hàm tạo (hàm thiết lập) không tham số, hàm tạo (hàm thiết lập) có tham số.
+<p>b.	Xây dựng toán tử <<, >> để nhập, xuất dữ liệu.
+<p>c.	Xây dựng toán tử lớn hơn “>” để so sánh hai đối tượng phiếu nhập thông qua số lượng.
+<p>d.	Xây dựng toán tử so sánh “==” để so sánh hai đối tượng phiếu nhập xem có cùng tên hàng hay không.
+Viết chương trình thực hiện các yêu cầu sau:</p>
+<p>a.	Viết chương trình nhập vào danh sách n phiếu nhập.
+<p>b.	Hiển thị các danh sách vừa nhập ra màn hình.
+<p>c.	Hiển thị thông tin những phiếu hàng thuộc mặt hàng “gia dụng”.
+<p>d.	Đưa ra thông tin những phiếu nhập có số lượng hàng >100.
+<p>#include<bits/stdc++.h>
+<p>using namespace std;
+<p>class date{
+<p>	public:
+<p>	int ngay,thang,nam;
+<p>	void nhap(){
 		cout<<"Ngay ";cin>>ngay;
 		cout<<"Thang ";cin>>thang;
 		cout<<"Nam ";cin>>nam;
@@ -91,42 +93,43 @@ for(int i=0;i<n;i++){
 	}
 };
 }
-Bài 2:
+<p>
+<p>Bài 2:
 Xây dựng lớp GIÁO VIÊN gồm các thông tin: họ tên, năm tốt nghiệp, môn giảng dạy và các phương thức nhập, hiển thị dữ liệu. Thực hiện các yêu cầu sau:
-a. Xây dựng hàm tạo (hàm thiết lập) không tham số, hàm tạo (hàm thiết lập) có tham số.
-b. Xây dựng toán tử “<<”, “>>” để nhập, xuất dữ liệu.
-c. Xây dựng toán tử so sánh “>” để so sánh thâm niên công tác của hai đối tượng giáo viên thông qua năm tốt nghiệp.
-d. Xây dựng toán tử “==” để so sánh xem hai giáo viên có cùng môn giảng dạy hay không?
+a.	Xây dựng hàm tạo (hàm thiết lập) không tham số, hàm tạo (hàm thiết lập) có tham số.
+b.	Xây dựng toán tử “<<”, “>>” để nhập, xuất dữ liệu.
+c.	Xây dựng toán tử so sánh “>” để so sánh thâm niên công tác của hai đối tượng giáo viên thông qua năm tốt nghiệp.
+d.	Xây dựng toán tử “==” để so sánh xem hai giáo viên có cùng môn giảng dạy hay không?
 Viết chương trình thực hiện các yêu cầu sau:
-a. Viết chương trình nhập vào thông tin n giáo viên (n nhập từ bàn phím).
-b. Hiển thị danh sách giáo viên vừa nhập ra màn hình.
-c. Sắp xếp danh sách giáo viên theo chiều giảm dần của năm công tác và hiển thị danh sách đã sắp xếp ra màn hình.
-d. Đếm số giáo viên giảng dạy môn Toán và hiển thị thông tin ra màn hình.
+a.	Viết chương trình nhập vào thông tin n giáo viên (n nhập từ bàn phím).
+b.	Hiển thị danh sách giáo viên vừa nhập ra màn hình.
+c.	Sắp xếp danh sách giáo viên theo chiều giảm dần của năm công tác và hiển thị danh sách đã sắp xếp ra màn hình.
+d.	Đếm số giáo viên giảng dạy môn Toán và hiển thị thông tin ra màn hình.
 
-Bài 3:
+<p>Bài 3:
 Xây dựng lớp DETAI (đề tài) bao gồm các thông tin: mã đề tài, tên đề tài, tình trạng (đã nghiệm thu hoặc chưa nghiệm thu) và các phương thức nhập, hiển thị dữ liệu. Thực hiện các yêu cầu sau:
-a. Xây dựng hàm tạo (hàm thiết lập) không tham số, hàm tạo (hàm thiết lập) có tham số.
-b. Xây dựng toán tử “<<”, “>>” để nhập, xuất dữ liệu.
-c. Xây dựng toán tử so sánh “==” để so sánh hai đề tài có trùng tên hay không?
-d. Xây dựng toán tử so sánh “!=” để đưa ra trạng thái của một đối tượng đề tài là đã cho nghiệm thu hay chưa.
+a.	Xây dựng hàm tạo (hàm thiết lập) không tham số, hàm tạo (hàm thiết lập) có tham số.
+b.	Xây dựng toán tử “<<”, “>>” để nhập, xuất dữ liệu.
+c.	Xây dựng toán tử so sánh “==” để so sánh hai đề tài có trùng tên hay không?
+d.	Xây dựng toán tử so sánh “!=” để đưa ra trạng thái của một đối tượng đề tài là đã cho nghiệm thu hay chưa.
 Viết chương trình thực hiện các yêu cầu sau:
-a. Viết chương trình nhập vào thông tin n đề tài (n nhập từ bàn phím).
-b. Hiển thị danh sách đề tài vừa nhập ra màn hình.
-c. Sắp xếp danh sách các đề tài theo chiều tăng dần của mã đề tài và hiển thị danh sách đã sắp xếp ra màn hình.
-d. Đếm số lượng đề tài đã nghiệm thu và đưa ra danh sách những đề tài đó.
+a.	Viết chương trình nhập vào thông tin n đề tài (n nhập từ bàn phím).
+b.	Hiển thị danh sách đề tài vừa nhập ra màn hình.
+c.	Sắp xếp danh sách các đề tài theo chiều tăng dần của mã đề tài và hiển thị danh sách đã sắp xếp ra màn hình.
+d.	Đếm số lượng đề tài đã nghiệm thu và đưa ra danh sách những đề tài đó.
 
-Bài 4:
+<p>Bài 4:
 Xây dựng lớp HOCVIEN (học viên) với các thông tin: mã học viên, họ tên, năm sinh, điểm tổng kết và các phương thức nhập, hiển thị dữ liệu. Thực hiện các yêu cầu sau:
-a. Xây dựng hàm tạo (hàm thiết lập) không tham số, hàm tạo (hàm thiết lập) có tham số.
-b. Xây dựng toán tử “<<”, “ >>” để nhập, xuất dữ liệu.
-c. Xây dựng toán tử “>” để so sánh hai đối tượng học viên thông qua điểm tổng kết.
-d. Xây dựng toán tử “<” để so sánh tuổi của hai học viên thông qua năm sinh.
+a.	Xây dựng hàm tạo (hàm thiết lập) không tham số, hàm tạo (hàm thiết lập) có tham số.
+b.	Xây dựng toán tử “<<”, “ >>” để nhập, xuất dữ liệu.
+c.	Xây dựng toán tử “>” để so sánh hai đối tượng học viên thông qua điểm tổng kết.
+d.	Xây dựng toán tử “<” để so sánh tuổi của hai học viên thông qua năm sinh.
 Viết chương trình thực hiện các yêu cầu sau:
-a. Viết chương trình nhập vào thông tin n học viên (n nhập từ bàn phím).
-b. Hiển thị danh sách n học viên vừa nhập ra màn hình.
-c. Sắp xếp danh sách các học viên theo chiều tăng dần của điểm tổng kết và hiển thị danh sách đã sắp xếp ra màn hình.
-d. Đếm số học viên có điểm tổng kết <5.0.
-Bài 5:
+a.	Viết chương trình nhập vào thông tin n học viên (n nhập từ bàn phím).
+b.	Hiển thị danh sách n học viên vừa nhập ra màn hình.
+c.	Sắp xếp danh sách các học viên theo chiều tăng dần của điểm tổng kết và hiển thị danh sách đã sắp xếp ra màn hình.
+d.	Đếm số học viên có điểm tổng kết <5.0.
+<p>Bài 5:
 Xây dựng lớp thẻ ATM gồm các thông tin: số tài khoản, năm mở thẻ, năm hết hạn, tên tài khoản, số dư và các phương thức nhập, hiển thị dữ liệu. Thực hiện các yêu cầu sau:
 class ATM{
 public:
@@ -173,10 +176,10 @@ c. Xây dựng toán tử so sánh “>” để so sánh hai đối tượng th
 
 d. Xây dựng toán tử “==” để kiểm tra xem hai tài khoản có trùng tên hay không.
 Viết chương trình thực hiện các yêu cầu sau:
-a. Viết chương trình nhập danh sách n thẻ ATM (n nhập từ bàn phím).
-b. Hiển thị danh sách n thẻ ATM vừa nhập ra màn hình.
-c. Đưa ra danh sách ATM đã mở trước năm 2010.
-d. Cho biết danh sách thẻ ATM đã hết hạn (tính đến thời điểm hiện tại).
+a.	Viết chương trình nhập danh sách n thẻ ATM (n nhập từ bàn phím).
+b.	Hiển thị danh sách n thẻ ATM vừa nhập ra màn hình.
+c.	Đưa ra danh sách ATM đã mở trước năm 2010.
+d.	Cho biết danh sách thẻ ATM đã hết hạn (tính đến thời điểm hiện tại).
 Bài 6:
 Xây dựng lớp hình chữ nhật gồm các thông tin: chiều dài, chiều rộng và các phương thức nhập, hiển thị dữ liệu. Thực hiện các yêu cầu sau:
 a. Xây dựng hàm tạo (hàm thiết lập) không tham số, hàm tạo (hàm thiết lập) có tham số.
