@@ -1,6 +1,6 @@
 # Mon_LapTrinhHuongDoiTuong
-<p>BÀI TẬP LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG<p\>
-
+<p>BÀI TẬP LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG</p>
+</p>
 Bài 1:
 Để quản lý hàng hóa, người ta xây dựng lớp PHIEUNHAP với các thông tin: Tên Hàng, Ngày nhập (có kiểu DATE), Số lượng và các phương thức nhập, xuất dữ liệu. thực hiện các yêu cầu sau:
 a. Xây dựng hàm tạo (hàm thiết lập) không tham số, hàm tạo (hàm thiết lập) có tham số.
